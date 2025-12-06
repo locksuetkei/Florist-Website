@@ -89,7 +89,7 @@ Each product includes:
 
 ## 📂 Folder Structure
 
-···
+
 Florist_Website/
 │
 ├── florist_images/            # All flower images
@@ -99,12 +99,11 @@ Florist_Website/
 ├── plant.html                 # Plants catalog
 ├── checkout.html              # Cart & checkout page
 ├── contact.html               # Contact form page
-├── about.html                 # About the florist
 ├── submitted.html             # Form submission confirmation
 │
 ├── script.js                  # Cart logic, mobile menu, dynamic functions
 └── styles.css                 # Global styling & responsive design
-···
+
 
 
 ## 🔒 Disclaimer
