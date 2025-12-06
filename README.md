@@ -127,11 +127,11 @@ Cart data is stored only in **sessionStorage**, and clears when the browser clos
 - Simulate an e-commerce flow using only front-end code
 - Portfolio + academic usage
 
-
+---
 
 ## 💐 Author
 
-Suet Kei Lock
+**Suet Kei Lock**
 Florist Website Design — Frontend Development Project
 
 ---
