@@ -139,3 +139,11 @@ Florist Website Design — Frontend Development Project
 ## 📘 Academic Note
 
 This project was originally developed as part of a university coursework and was later refined into a complete frontend demo featuring responsive design and a session-based cart system.
+
+---
+
+## © Copyright
+
+© 2025 Suet Kei Lock. All rights reserved.  
+Unauthorized copying, redistribution, or submission of this project as academic work is strictly prohibited.
+
