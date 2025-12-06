@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!-- This website template was created by: Lock Suet Kei-->
+
+<html lang="en"><!--language as English-->
+
+<head>
+    <title>Busy Bee Florist</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="florist_images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Charm:wght@700&family=Lobster+Two&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head><!--page title and favicon-->
+
+<body>
+    <!-- Use the header area for the website name or logo -->
+
+    <div id="container">
+        <div id="headerAndNavContainer">
+
+            <header id="ffc-logo"><!--business name on webpage-->
+                <h1>
+                    Busy Bee Florist
+                </h1>
+            </header>
+
+            <br>
+
+            <nav class="mobile-nav">
+                <div id="menu-links">
+                    <a href="index.html">Home</a>
+                    <a href="flower.html">Fresh Flower</a>
+                    <a href="plant.html">Plant</a>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="checkout.html">Checkout</a>
+                </div>
+
+                <a class="menu-icon" onclick="hamburger()">
+                    <div>&#9776;</div>
+                </a>
+            </nav>
+
+            <nav class="tablet-desktop">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="flower.html">Fresh Flower</a></li>
+                    <li><a href="plant.html">Plant</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="checkout.html">Checkout</a></li>
+                </ul><!--hyperlink for each page-->
+            </nav>
+
+        </div>
+
+        <div id="empty-cart-message" style="display:none; text-align:center; margin:50px 0;">
+            <h2>Your cart is empty</h2>
+            <p>Please add items from the shop.</p>
+            <button class="Here">
+                <a href="flower.html">Start Shopping</a>
+            </button>
+        </div><!--Empty cart message close-->
+
+        <div id="checklist">
+            <table>
+
+                <caption>
+                    <h2>Checklist</h2>
+                </caption>
+
+                <thead>
+                    <tr>
+                        <th><strong>Item</strong></th>
+                        <th><strong>Description</strong></th>
+                        <th><strong>Quantity</strong></th>
+                        <th><strong>Price</strong></th>
+                        <th><strong>Remove</strong></th>
+                    </tr>
+                </thead>
+
+                <!-- Let JavaScript generate it -->
+                <tbody id="cartBody">
+                    <!-- JS will insert each product line here -->
+                </tbody>
+
+                <tfoot>
+                    <tr id="totalRow">
+                        <td colspan="5">
+                            <span class="total-label">Total Price</span>
+                            <span id="totalPrice" class="total-value">$323.02</span>
+                        </td>
+                    </tr>
+                </tfoot>
+                
+            </table>
+        </div><!--Checklist close-->
+
+        <main>
+            <br><br><br>
+
+            <div id="pay">
+                <button id="checkoutButton" class="Checkout">
+                    <a href="https://www.paypal.com/au/webapps/mpp/pay-online">Checkout</a>
+                </button>
+            </div><!--Pay close-->
+        </main>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        <br><br><br>
+
+        <footer>
+            <ul>
+                <li>&copy; 2023 Busy Bee Florist. All Rights Reserved.</li><!--copyright-->
+                <li><a
+                        href="https://www.oaic.gov.au/about-the-OAIC/our-corporate-information/plans-policies-and-procedures/privacy-policy">
+                        Privacy Policy</a>
+                </li>
+                <li>Term & Conditions</li> <!-- <a href=""> link </a> -->
+                <li><a
+                        href="https://www.qld.gov.au/law/laws-regulated-industries-and-accountability/queensland-laws-and-regulations/selling-your-products-and-services/guarantees-warranties-and-refunds/your-refund-policy">
+                        Refund Policy</a>
+                </li>
+            </ul><!--act policy link-->
+
+            <p>
+            <ul>
+                <li>07 4779 1243</li>
+                <li><a href="mailto: busybeeflorist@busybeemail.com.au">
+                        busybeeflorist@busybeemail.com.au</a>
+                </li>
+                <li>ABN 11 222 333 444</li> <!--business abn number-->
+            </ul>
+            </p><!--email address-->
+            
+        </footer>
+    </div><!--Container close-->
+
+    <script src="script.js"></script>
+</body>
+
+</html>

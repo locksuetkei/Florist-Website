@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<!-- This website template was created by: Lock Suet Kei-->
+
+<html lang="en"><!--language as English-->
+
+<head>
+    <title>Busy Bee Florist</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="florist_images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Charm:wght@700&family=Lobster+Two&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head><!--page title and favicon-->
+
+<body>
+    <!-- Use the header area for the website name or logo -->
+
+    <div id="container">
+        <div id="headerAndNavContainer">
+            <header id="ffc-logo"><!--business name on webpage-->
+                <h1>
+                    Busy Bee Florist
+                </h1>
+            </header>
+
+            <br>
+
+            <nav class="mobile-nav">
+                <div id="menu-links">
+                    <a href="index.html">Home</a>
+                    <a href="flower.html">Fresh Flower</a>
+                    <a href="plant.html">Plant</a>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="checkout.html">Checkout</a>
+                </div>
+
+                <a class="menu-icon" onclick="hamburger()">
+                    <div>&#9776;</div>
+                </a>
+            </nav>
+
+
+            <nav class="tablet-desktop">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="flower.html">Fresh Flower</a></li>
+                    <li><a href="plant.html">Plant</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="checkout.html">Checkout</a></li>
+                </ul><!--hyperlink for each page-->
+            </nav>
+
+            <div id="mini-cart" class="normal-cart">
+                🛒 Cart: <span id="cartCount">0</span>
+            </div><!-- Mini Cart -->
+        </div>
+
+        <main>
+            <div id="allP">
+                <h1>All Plant</h1>
+
+                <div id="indoor">
+                    <h2>Indoor Plant</h2>
+
+                    <div class="grid-in">
+
+                        <div class="grid-in-item">
+                            <div class="flowerCard">
+                                <img src="florist_images/devils-ivy.png" alt="Devil's Ivy">
+                                <p>Devil's Ivy<br>$9.75</p>
+                                <button class="AddToCart"
+                                    data-id="devils-ivy"
+                                    data-name="Devil's Ivy"
+                                    data-price="9.75"
+                                    data-image="florist_images/devils-ivy.png">
+                                    Add to cart
+                                </button>
+                            </div> <!--close Flowercard-->
+                        </div>
+
+                        <div class="grid-in-item">
+                            <div class="flowerCard">
+                                <img src="florist_images/clivia.jpg" alt="Clivia">
+                                <p>Clivia<br>$11.45</p>
+                                <button class="AddToCart"
+                                    data-id="clivia"
+                                    data-name="Clivia"
+                                    data-price="11.45"
+                                    data-image="florist_images/clivia.jpg">
+                                    Add to cart
+                                </button>
+                            </div> <!--close Flowercard-->
+                        </div>
+
+                        <div class="grid-in-item">
+                            <div class="flowerCard">
+                                <img src="florist_images/lucky-bamboo.jpg" alt="Lucky Bamboo">
+                                <p>Lucky Bamboo<br>$12.98</p>
+                                <button class="AddToCart"
+                                    data-id="lucky-bamboo"
+                                    data-name="Lucky Bamboo"
+                                    data-price="12.98"
+                                    data-image="florist_images/lucky-bamboo.jpg">
+                                    Add to cart
+                                </button>
+                            </div> <!--close Flowercard-->
+                        </div>
+
+                        <div class="grid-in-item">
+                            <div class="flowerCard">
+                                <img src="florist_images/guiana-chestnut.jpg" alt="Guiana Chestnut">
+                                <p>Guiana Chestnut<br>$18.15</p>
+                                <button class="AddToCart"
+                                    data-id="guiana-chestnut"
+                                    data-name="Guiana Chestnut"
+                                    data-price="18.15"
+                                    data-image="florist_images/guiana-chestnut.jpg">
+                                    Add to cart
+                                </button>
+                            </div> <!--close Flowercard-->
+                        </div>
+
+                        <div class="grid-in-item">
+                            <div class="flowerCard">
+                                <img src="florist_images/fiddle-leaf-fig.jpg" alt="Fiddle Leaf Fig">
+                                <p>Fiddle Leaf Fig<br>$19.85</p>
+                                <button class="AddToCart"
+                                    data-id="fiddle-leaf-fig"
+                                    data-name="Fiddle Leaf Fig"
+                                    data-price="19.85"
+                                    data-image="florist_images/fiddle-leaf-fig.jpg">
+                                    Add to cart
+                                </button>
+                            </div> <!--close Flowercard-->
+                        </div>
+
+                        <div class="grid-in-item">
+                            <div class="flowerCard">
+                                <img src="florist_images/spathiphyllum-floribundum.jpg" alt="Spathiphyllum Floribundum">
+                                <p>Spathiphyllum Floribundum<br>$19.90</p>
+                                <button class="AddToCart"
+                                    data-id="spathiphyllum-floribundum"
+                                    data-name="Spathiphyllum Floribundum"
+                                    data-price="19.90"
+                                    data-image="florist_images/spathiphyllum-floribundum.jpg">
+                                    Add to cart
+                                </button>
+                            </div> <!--close Flowercard-->
+                        </div>
+
+                        <div class="grid-in-item">
+                            <div class="flowerCard">
+                                <img src="florist_images/rubber-fig.jpg" alt="Rubber Fig">
+                                <p>Rubber Fig<br>$22.95</p>
+                                <button class="AddToCart"
+                                    data-id="rubber-fig"
+                                    data-name="Rubber Fig"
+                                    data-price="22.95"
+                                    data-image="florist_images/rubber-fig.jpg">
+                                    Add to cart
+                                </button>
+                            </div> <!--close Flowercard-->
+                        </div>
+
+                        <div class="grid-in-item">
+                            <div class="flowerCard">
+                                <img src="florist_images/swiss-cheese-plant.jpg" alt="Swiss Cheese Plant">
+                                <p>Swiss Cheese Plant<br>$23.94</p>
+                                <button class="AddToCart"
+                                    data-id="swiss-cheese-plant"
+                                    data-name="Swiss Cheese Plant"
+                                    data-price="23.94"
+                                    data-image="florist_images/swiss-cheese-plant.jpg">
+                                    Add to cart
+                                </button>
+                            </div> <!--close Flowercard-->
+                        </div>
+
+                        <div class="grid-in-item">
+                            <div class="flowerCard">
+                                <img src="florist_images/dracaena-trifasciata.jpg" alt="Dracaena Trifasciata">
+                                <p>Dracaena Trifasciata<br>$29.98</p>
+                                <button class="AddToCart"
+                                    data-id="dracaena-trifasciata"
+                                    data-name="Dracaena Trifasciata"
+                                    data-price="29.98"
+                                    data-image="florist_images/dracaena-trifasciata.jpg">
+                                    Add to cart
+                                </button>
+                            </div> <!--close Flowercard-->
+                        </div>
+
+                        <div class="grid-in-item">
+                            <div class="flowerCard">
+                                <img src="florist_images/areca-palm.jpg" alt="Areca Palm">
+                                <p>Areca Palm<br>$65.98</p>
+                                <button class="AddToCart"
+                                    data-id="areca-palm"
+                                    data-name="Areca Palm"
+                                    data-price="65.98"
+                                    data-image="florist_images/areca-palm.jpg">
+                                    Add to cart
+                                </button>
+                            </div> <!--close Flowercard-->
+                        </div>    
+
+                    </div>
+                </div><!--Indoor close-->
+
+                <br><br><br><br><br>
+
+                <div id="outdoor">
+                    <h2>Outdoor Plants</h2>
+
+                    <div class="grid-out">
+
+                        <div class="grid-out-item">
+                            <div class="flowerCard">
+                                <img src="florist_images/persian-shield.jpg" alt="Persian Shield">
+                                <p>Persian Shield<br>$10.98</p>
+                                <button class="AddToCart"
+                                    data-id="persian-shield"
+                                    data-name="Persian Shield"
+                                    data-price="10.98"
+                                    data-image="florist_images/persian-shield.jpg">
+                                    Add to cart
+                                </button>
+                            </div> <!--close Flowercard-->
+                        </div>
+
+                        <div class="grid-out-item">
+                            <div class="flowerCard">
+                                <img src="florist_images/armeria-maritima-rosea.jpg" alt="Armeria Maritima Rosea">
+                                <p>Armeria Maritima Rosea<br>$12.89</p>
+                                <button class="AddToCart"
+                                        data-id="armeria-maritima-rosea"
+                                        data-name="Armeria Maritima Rosea"
+                                        data-price="12.89"
+                                        data-image="florist_images/armeria-maritima-rosea.jpg">
+                                        Add to cart
+                                    </button>
+                            </div> <!--close Flowercard-->
+                        </div>
+
+                        <div class="grid-out-item">
+                            <div class="flowerCard">
+                                <img src="florist_images/bugleweed.jpg" alt="Bugleweed">
+                                <p>Bugleweed<br>$12.99</p>
+                                <button class="AddToCart"
+                                        data-id="bugleweed"
+                                        data-name="Bugleweed"
+                                        data-price="12.99"
+                                        data-image="florist_images/bugleweed.jpg">
+                                        Add to cart
+                                    </button>
+                            </div> <!--close Flowercard-->
+                        </div>
+
+                        <div class="grid-out-item">
+                            <div class="flowerCard">
+                                <img src="florist_images/butterfly-weed.jpg" alt="Butterfly Weed">
+                                <p>Butterfly Weed<br>$13.51</p>
+                                <button class="AddToCart"
+                                        data-id="butterfly-weed"
+                                        data-name="Butterfly Weed"
+                                        data-price="13.51"
+                                        data-image="florist_images/butterfly-weed.jpg">
+                                        Add to cart
+                                    </button>
+                            </div> <!--close Flowercard-->
+                        </div>
+
+                        <div class="grid-out-item">
+                            <div class="flowerCard">
+                                <img src="florist_images/first-frost-hosta.jpg" alt="First Frost Hosta">
+                                <p>First Frost Hosta<br>$13.51</p>
+                                <button class="AddToCart"
+                                        data-id="first-frost-hosta"
+                                        data-name="First Frost Hosta"
+                                        data-price="13.51"
+                                        data-image="florist_images/first-frost-hosta.jpg">
+                                        Add to cart
+                                    </button>
+                            </div> <!--close Flowercard-->
+                        </div>
+
+                        <div class="grid-out-item">
+                            <div class="flowerCard">
+                                <img src="florist_images/whorled-tickseed.jpg" alt="Whorled Tickseed">
+                                <p>Whorled Tickseed<br>$13.51</p>
+                                <button class="AddToCart"
+                                        data-id="whorled-tickseed"
+                                        data-name="Whorled Tickseed"
+                                        data-price="13.51"
+                                        data-image="florist_images/whorled-tickseed.jpg">
+                                        Add to cart
+                                    </button>
+                            </div> <!--close Flowercard-->
+                        </div>
+
+                        <div class="grid-out-item">
+                            <div class="flowerCard">
+                                <img src="florist_images/dianthus-romance.png" alt="Dianthus Romance">
+                                <p>Dianthus Romance<br>$15.95</p>
+                                <button class="AddToCart"
+                                        data-id="dianthus-romance"
+                                        data-name="Dianthus Romance"
+                                        data-price="15.95"
+                                        data-image="florist_images/dianthus-romance.png">
+                                        Add to cart
+                                    </button>
+                            </div> <!--close Flowercard-->
+                        </div>
+
+                        <div class="grid-out-item">
+                            <div class="flowerCard">
+                                <img src="florist_images/adenium-obesum.jpg" alt="Adenium Obesum">
+                                <p>Adenium Obesum<br>$19.98</p>
+                                <button class="AddToCart"
+                                        data-id="adenium-obesum"
+                                        data-name="Adenium Obesum"
+                                        data-price="19.98"
+                                        data-image="florist_images/adenium-obesum.jpg">
+                                        Add to cart
+                                    </button>
+                            </div> <!--close Flowercard-->
+                        </div>
+
+                        <div class="grid-out-item">
+                            <div class="flowerCard">
+                                <img src="florist_images/caladium.jpg" alt="Caladium">
+                                <p>Caladium<br>$20.00</p>
+                                <button class="AddToCart"
+                                        data-id="caladium"
+                                        data-name="Caladium"
+                                        data-price="20.00"
+                                        data-image="florist_images/caladium.jpg">
+                                        Add to cart
+                                    </button>
+                            </div> <!--close Flowercard-->
+                        </div>
+
+                        <div class="grid-out-item">
+                            <div class="flowerCard">
+                                <img src="florist_images/bird-paradise-flower.jpg" alt="Bird of Paradise Flower">
+                                <p>Bird of Paradise Flower<br>$20.90</p>
+                                <button class="AddToCart"
+                                        data-id="bird-paradise-flower"
+                                        data-name="Bird of Paradise Flower"
+                                        data-price="20.90"
+                                        data-image="florist_images/bird-paradise-flower.jpg">
+                                        Add to cart
+                                    </button>
+                            </div> <!--close Flowercard-->
+                        </div>
+                        
+                    </div>
+                </div><!--Outdoor close-->
+            </div><!--All Plant close-->
+        </main>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        <br><br><br>
+
+        <footer>
+            <ul>
+                <li>&copy; 2023 Busy Bee Florist. All Rights Reserved.</li><!--copyright-->
+                <li><a
+                        href="https://www.oaic.gov.au/about-the-OAIC/our-corporate-information/plans-policies-and-procedures/privacy-policy">
+                        Privacy Policy</a>
+                </li>
+                <li>Term & Conditions</li> <!-- <a href=""> link </a> -->
+                <li><a
+                        href="https://www.qld.gov.au/law/laws-regulated-industries-and-accountability/queensland-laws-and-regulations/selling-your-products-and-services/guarantees-warranties-and-refunds/your-refund-policy">
+                        Refund Policy</a>
+                </li>
+            </ul><!--act policy link-->
+
+            <p>
+            <ul>
+                <li>07 4779 1243</li>
+                <li><a href="mailto: busybeeflorist@busybeemail.com.au">
+                        busybeeflorist@busybeemail.com.au</a>
+                </li>
+                <li>ABN 11 222 333 444</li> <!--business abn number-->
+            </ul>
+            </p><!--email address-->
+        </footer>
+    </div><!--Container close-->
+
+    <script src="script.js"></script>
+</body>
+
+</html>

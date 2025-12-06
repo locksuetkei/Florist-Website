@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<!-- This website template was created by: Lock Suet Kei-->
+
+<html lang="en"><!--language as English-->
+
+    <head>
+        <title>Busy Bee Florist</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="florist_images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Allura&family=Charm:wght@700&family=Lobster+Two&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head><!--page title and favicon-->
+
+    <body>
+        <!-- Use the header area for the website name or logo -->
+
+        <div id="container">
+            <div id="headerAndNavContainer">
+                <header id="ffc-logo"><!--business name on webpage-->
+                    <h1>
+                        Busy Bee Florist
+                    </h1>
+                </header>
+
+                <br>
+
+                <nav class="mobile-nav"> 
+                    <div id="menu-links"> 
+                        <a href="index.html">Home</a> 
+                        <a href="flower.html">Fresh Flower</a>
+                        <a href="plant.html">Plant</a>
+                        <a href="contact.html">Contact Us</a>
+                        <a href="checkout.html">Checkout</a> 
+                    </div> 
+                    
+                    <a class="menu-icon" onclick="hamburger()"> 
+                        <div>&#9776;</div> 
+                    </a> 
+                </nav>
+
+
+                <nav class="tablet-desktop">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="flower.html">Fresh Flower</a></li>
+                        <li><a href="plant.html">Plant</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="checkout.html">Checkout</a></li>
+                    </ul><!--hyperlink for each page-->
+                </nav>
+
+                <div id="mini-cart" class="normal-cart">
+                    🛒 Cart: <span id="cartCount">0</span>
+                </div><!-- Mini Cart -->
+            </div>
+
+            <main>
+                <div id="allF">                   
+                    <h1>All Flower</h1>
+                                     
+                    <div id="arrengement">
+                        <h2>Single Stem Collection</h2>
+                        
+                        <div class="grid-arr">                    
+
+                            <div class="grid-arr-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/hibicus.jpg" alt="Hibicus">
+                                    <p>Hibicus<br>$4.30</p>
+                                    <button class="AddToCart"
+                                        data-id="hibicus"
+                                        data-name="Hibicus"
+                                        data-price="4.30"
+                                        data-image="florist_images/hibicus.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-arr-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/carnation.jpg" alt="Carnation">
+                                    <p>Carnation<br>$4.35</p>
+                                    <button class="AddToCart"
+                                        data-id="carnation"
+                                        data-name="Carnation"
+                                        data-price="4.35"
+                                        data-image="florist_images/carnation.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-arr-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/pink-gerbera.jpg" alt="Pink Gerbera">
+                                    <p>Pink Gerbera<br>$5.19</p>
+                                    <button class="AddToCart"
+                                        data-id="pink-gerbera"
+                                        data-name="Pink Gerbera"
+                                        data-price="5.19"
+                                        data-image="florist_images/pink-gerbera.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div> 
+
+                            <div class="grid-arr-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/rose.jpeg" alt="Rose">
+                                    <p>Rose<br>$5.58</p>
+                                    <button class="AddToCart"
+                                        data-id="rose"
+                                        data-name="Rose"
+                                        data-price="5.58"
+                                        data-image="florist_images/rose.jpeg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>            
+                            
+                            <div class="grid-arr-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/white-lily.jpg" alt="White Lily">
+                                    <p>White Lily<br>$6.32</p>
+                                    <button class="AddToCart"
+                                        data-id="white-lily"
+                                        data-name="White Lily"
+                                        data-price="6.32"
+                                        data-image="florist_images/white-lily.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-arr-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/pink-lily.jpg" alt="Pink Lily">
+                                    <p>Pink Lily<br>$6.93</p>
+                                    <button class="AddToCart"
+                                        data-id="pink-lily"
+                                        data-name="Pink Lily"
+                                        data-price="6.93"
+                                        data-image="florist_images/pink-lily.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div> 
+
+                            <div class="grid-arr-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/sunflower.jpg" alt="Sun Flower">
+                                    <p>Sun Flower<br>$6.98</p>
+                                    <button class="AddToCart"
+                                        data-id="sunflower"
+                                        data-name="Sun Flower"
+                                        data-price="6.98"
+                                        data-image="florist_images/sunflower.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>  
+
+                            <div class="grid-arr-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/babys-breath.png" alt="Baby’s Breath">
+                                    <p>Baby’s Breath<br>$10.15</p>
+                                    <button class="AddToCart"
+                                        data-id="babys-breath"
+                                        data-name="Baby’s Breath"
+                                        data-price="10.15"
+                                        data-image="florist_images/babys-breath.png">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                        </div><!--grid-arr close-->
+                    </div><!--Arrangement close-->
+
+                    <br><br><br><br><br>
+
+                    <div id="birthday">
+                        <h2>Birthday Blossom Series</h2>
+                        
+                        <div class="grid-birth">
+
+                            <div class="grid-birth-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/champagne-bloom.jpg" 
+                                    alt="12 Stems Champagne Rose + 6 Stems Chrysanthemum with Leaves">
+                                    <p>Champagne Bloom<br>$155.00</p>
+                                    <button class="AddToCart"
+                                        data-id="champagne-bloom"
+                                        data-name="Champagne Bloom"
+                                        data-price="155.00"
+                                        data-image="florist_images/champagne-bloom.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-birth-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/blush-rose-blossom.jpg" 
+                                    alt="19 Stems Pink Rose with Pink Lisianthus">
+                                    <p>Blush Rose Blossom<br>$168.00</p>
+                                    <button class="AddToCart"
+                                        data-id="blush-rose-blossom"
+                                        data-name="Blush Rose Blossom"
+                                        data-price="168.00"
+                                        data-image="florist_images/blush-rose-blossom.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-birth-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/white-blossom.jpg" 
+                                    alt="11 Stems White Rose + 5 Stems Green Lisianthus + 3 Stems White Chrysanthemum + 4 Stems White Dianthus with Leaves">
+                                    <p>White Blossom<br>$168.00</p>                                    
+                                    <button class="AddToCart"
+                                        data-id="white-blossom"
+                                        data-name="White Blossom"
+                                        data-price="168.00"
+                                        data-image="florist_images/white-blossom.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-birth-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/blush-rose.jpg" 
+                                    alt="12 Stems Pink Rose + 5 Pink Lisianthus + 3 Stems Pink Statice with Leaves">
+                                    <p>Blush Rose<br>$178.00</p>
+                                    <button class="AddToCart"
+                                        data-id="blush-rose"
+                                        data-name="Blush Rose"
+                                        data-price="178.00"
+                                        data-image="florist_images/blush-rose.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-birth-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/crimson-rose.jpg" 
+                                    alt="16 Stems Red Rose + 5 Stems Berry + 1 Stem Pnik Lisianthus + 2 Stems Silver Leaf">
+                                    <p>Crimson Rose<br>$185.00</p>
+                                    <button class="AddToCart"
+                                        data-id="crimson-rose"
+                                        data-name="Crimson Rose"
+                                        data-price="185.00"
+                                        data-image="florist_images/crimson-rose.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-birth-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/rainbow-rose-blossom.jpg" 
+                                    alt="9 Stems Red Rose + 11 Stems Pink Rose + 9 Stems Champagne Rose with Light Green Foliage">
+                                    <p>Rainbow Rose <br>Blossom<br>$235.00</p>
+                                    <button class="AddToCart"
+                                        data-id="rainbow-rose-blossom"
+                                        data-name="Rainbow Rose Blossom"
+                                        data-price="235.00"
+                                        data-image="florist_images/rainbow-rose-blossom.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>                         
+
+                            <div class="grid-birth-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/champagne-lily.jpg" 
+                                    alt="29 Stems Champagne Rose + 3 Stems Pink Oriental Lily with Heiwingia">
+                                    <p>Champagne Lily<br>$236.00</p>
+                                    <button class="AddToCart"
+                                        data-id="champagne-lily"
+                                        data-name="Champagne Lily"
+                                        data-price="236.00"
+                                        data-image="florist_images/champagne-lily.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                        </div>
+                    </div><!--Birthday close-->
+
+                    <br><br><br><br><br>
+
+                   <div id="bouquet">
+                        <h2>Everyday Blossom Collection</h2>
+
+                        <div class="grid-bouq">
+
+                            <div class="grid-bouq-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/sweet-rosy-blossom.jpg" 
+                                    alt="9 Stems Red Rose + 12 Stems Pink Carnation">
+                                    <p>Sweet Rosy Blossom<br>$155.00</p>
+                                    <button class="AddToCart"
+                                        data-id="sweet-rosy-blossom"
+                                        data-name="Sweet Rosy Blossom"
+                                        data-price="155.00"
+                                        data-image="florist_images/sweet-rosy-blossom.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-bouq-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/everyday-lavender-blossom.jpg" 
+                                    alt="19 Stems Purple Rose + 7 Stems White Lisianthus + 5 Stems White Minor Flower">
+                                    <p>Everyday Lavender <br>Blossom<br>$188.00</p>
+                                    <button class="AddToCart"
+                                        data-id="everyday-lavender-blossom"
+                                        data-name="Everyday Lavender Blossom"
+                                        data-price="188.00"
+                                        data-image="florist_images/everyday-lavender-blossom.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-bouq-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/blush-pink-blossom.jpg" 
+                                    alt="22 Stems Pale Pink Rose + 7 Stems Deep Pink Rose">
+                                    <p>Blush Pink Blossom<br>$195.00</p>
+                                    <button class="AddToCart"
+                                        data-id="blush-pink-blossom"
+                                        data-name="Blush Pink Blossom"
+                                        data-price="195.00"
+                                        data-image="florist_images/blush-pink-blossom.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-bouq-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/ivory-blossom.jpg" 
+                                    alt="29 Stems Ivory White Rose wrapped in Navy Blue Paper">
+                                    <p>Ivory Blossom<br>$195.00</p>
+                                    <button class="AddToCart"
+                                        data-id="ivory-blossom"
+                                        data-name="Ivory Blossom"
+                                        data-price="195.00"
+                                        data-image="florist_images/ivory-blossom.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-bouq-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/pink-daisy-blossom.jpg" 
+                                    alt="29 Stems Pink Rose + 5 Stems Pink Gerbra with Eucalyptus Leaves">
+                                    <p>Pink Daisy Blossom<br>$195.00</p>
+                                    <button class="AddToCart"
+                                        data-id="pink-daisy-blossom"
+                                        data-name="Pink Daisy Blossom"
+                                        data-price="195.00"
+                                        data-image="florist_images/pink-daisy-blossom.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-bouq-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/rosy-love-blossom.jpg" 
+                                    alt="99 Stems Red Rose with Lush Green Foliage">
+                                    <p>Rosy Love Blossom<br>$205.00</p>
+                                    <button class="AddToCart"
+                                        data-id="rosy-love-blossom"
+                                        data-name="Rosy Love Blossom"
+                                        data-price="205.00"
+                                        data-image="florist_images/rosy-love-blossom.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-bouq-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/everlasting-love-blossom.jpg" 
+                                    alt="39 Stems Pale PinkRose + 60 Stems Red Rose with Baby’s Breath">
+                                    <p>Everlasting Love <br>Blossom<br>$675.00</p>
+                                    <button class="AddToCart"
+                                        data-id="everlasting-love-blossom"
+                                        data-name="Everlasting Love Blossom"
+                                        data-price="675.00"
+                                        data-image="florist_images/everlasting-love-blossom.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+
+                        </div>
+                    </div><!--Bouquet close-->
+
+                    <br><br><br><br><br>
+
+                    <div id="buttonHoleCorsage">
+                        <h2>Elegant Blossom Accessories</h2>
+
+                        <div class="grid-butt">
+
+                            <div class="grid-butt-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/white-rose-buttonhole.png" 
+                                    alt="Buttonhole featuring a single white rose with baby's breath and eucalyptus leaves">
+                                    <p>White Rose Buttonhole<br>$20.00</p>
+                                    <button class="AddToCart"
+                                        data-id="white-rose-buttonhole"
+                                        data-name="White Rose Buttonhole"
+                                        data-price="20.00"
+                                        data-image="florist_images/white-rose-buttonhole.png">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>                                                    
+
+                            <div class="grid-butt-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/white-lisianthus-buttonhole.png" 
+                                    alt="Elegant buttonhole with a white lisianthus bloom and greenery">
+                                    <p>White Lisianthus <br>Buttonhole<br>$22.00</p>
+                                    <button class="AddToCart"
+                                        data-id="white-lisianthus-buttonhole"
+                                        data-name="White Lisianthus Buttonhole"
+                                        data-price="22.00"
+                                        data-image="florist_images/white-lisianthus-buttonhole.png">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>                            
+
+                            <div class="grid-butt-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/pink-rose-petite-corsage.png" 
+                                    alt="Corsage with a single pink rose accented with baby's breath and soft ribbon">
+                                    <p>Pink Rose Petite <br>Corsage<br>$23.00</p>
+                                    <button class="AddToCart"
+                                        data-id="pink-rose-petite-corsage"
+                                        data-name="Pink Rose Petite Corsage"
+                                        data-price="23.00"
+                                        data-image="florist_images/pink-rose-petite-corsage.png">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-butt-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/lavender-rose-corsage.png" 
+                                    alt="Corsage featuring lavender sprigs with a small pink rose and delicate white fillers">
+                                    <p>Lavender Rose Corsage<br>$24.00</p>
+                                    <button class="AddToCart"
+                                        data-id="lavender-rose-corsage"
+                                        data-name="Lavender Rose Corsage"
+                                        data-price="24.00"
+                                        data-image="florist_images/lavender-rose-corsage.png">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-butt-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/blushing-bride-berry-buttonhole.jpg" 
+                                    alt="Button-hole with 3 White Blushing Bride Flowers and Pink Berries">
+                                    <p>Blushing Bride Berry <br>Buttonhole<br>$25.00</p>
+                                    <button class="AddToCart"
+                                        data-id="blushing-bride-berry-buttonhole"
+                                        data-name="Blushing Bride Berry Buttonhole"
+                                        data-price="25.00"
+                                        data-image="florist_images/blushing-bride-berry-buttonhole.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-butt-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/blushing-bride-berry-corsage.jpg" 
+                                    alt="Corsage with 10 White Blushing Bride Flowers and Pink Berries">
+                                    <p>Blushing Bride Berry <br>Corsage<br>$45.00</p>
+                                    <button class="AddToCart"
+                                        data-id="blushing-bride-berry-corsage"
+                                        data-name="Blushing Bride Berry Corsage"
+                                        data-price="45.00"
+                                        data-image="florist_images/blushing-bride-berry-corsage.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+                            
+                        </div> 
+                    </div><!--Button-Hole & Corsage close-->
+
+                    <br><br><br><br><br>
+
+                    <div id="graduation">
+                        <h2>Graduation Blossom Series</h2>
+                        
+                        <div class="grid-graduat">                           
+                            <div class="grid-graduat-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/sunshine-graduation-bouquet.jpg" 
+                                    alt="6 Stems Sun Flower + 6 Stems Green Lisianthus with White Fillers Flowers">
+                                    <p>Sunshine Graduation <br>Bouquet<br>$115.00</p>
+                                    <button class="AddToCart"
+                                        data-id="sunshine-graduation-bouquet"
+                                        data-name="Sunshine Graduation Bouquet"
+                                        data-price="115.00"
+                                        data-image="florist_images/sunshine-graduation-bouquet.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-graduat-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/radiant-wisdom-graduation-bouquet.jpg" 
+                                    alt="9 Stems Purple Carnation + 2 Stems Pink Oriental Lily + 4 Stems Purple Lisianthus">
+                                    <p>Radiant Wisdom <br>Graduation Bouquet<br>$118.00</p>
+                                    <button class="AddToCart"
+                                        data-id="radiant-wisdom-graduation-bouquet"
+                                        data-name="Radiant Wisdom Graduation Bouquet"
+                                        data-price="118.00"
+                                        data-image="florist_images/radiant-wisdom-graduation-bouquet.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-graduat-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/grand-honor-graduation-bouquet.jpg" 
+                                    alt="15 Stems Champagne Rose + 3 Stems Sunflower with Leaves">
+                                    <p>Grand Honor <br>Graduation Bouquet<br>$145.00</p>
+                                    <button class="AddToCart"
+                                        data-id="grand-honor-graduation-bouquet"
+                                        data-name="Grand Honor Graduation Bouquet"
+                                        data-price="145.00"
+                                        data-image="florist_images/grand-honor-graduation-bouquet.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-graduat-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/fresh-hope-graduation-bouquet.jpg" 
+                                    alt="11 Stems Champagne Rose + 2 Stems Sunflower + 5 Stems Green Lisiantus + 3 Stems Green Chrysanthemum with Heiwingia">
+                                    <p>Fresh Hope <br>Graduation Bouquet<br>$188.00</p>
+                                    <button class="AddToCart"
+                                        data-id="fresh-hope-graduation-bouquet"
+                                        data-name="Fresh Hope Graduation Bouquet"
+                                        data-price="188.00"
+                                        data-image="florist_images/fresh-hope-graduation-bouquet.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-graduat-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/golden-celebration-graduation-bouquet.png" 
+                                    alt="4 Stems Sunflower + 6 Stems Craspedia + 10 Stems Champagne Rose + 3 Stems White Lisianthus + 5 Stems Green Carnation Sunflower">
+                                    <p>Golden Celebration <br>Graduation Bouquet<br>$198.00</p>
+                                    <button class="AddToCart"
+                                        data-id="golden-celebration-graduation-bouquet"
+                                        data-name="Golden Celebration Graduation Bouquet"
+                                        data-price="198.00"
+                                        data-image="florist_images/golden-celebration-graduation-bouquet.png">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>                            
+
+                            <div class="grid-graduat-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/celebration-glory-graduation-bouquet.jpg" 
+                                    alt="10 Stems Red Gerbra + 5 Stems Champagne Rose + 3 Stems Champagne Lisianthus + 5 Stems Alstoemeria">
+                                    <p>Celebration Glory <br>Graduation Bouquet<br>$208.00</p>
+                                    <button class="AddToCart"
+                                        data-id="celebration-glory-graduation-bouquet"
+                                        data-name="Celebration Glory Graduation Bouquet"
+                                        data-price="208.00"
+                                        data-image="florist_images/celebration-glory-graduation-bouquet.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+                        
+                        </div>
+                    </div><!--Graduation close-->
+                    
+                    <br><br><br><br><br>
+                    
+                    <div id="grandOpen">
+                        <h2>Grand Opening Bloom Collection</h2>
+
+                        <div class="grid-grad">
+
+                            <div class="grid-grad-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/elegant-orchid-opening-box.jpg" 
+                                    alt="Arrangement featuring purple Singapore orchids with baby’s breath and assorted greenery (5 stems)">
+                                    <p>Elegant Orchid <br>Opening Box<br>$48.00</p>
+                                    <button class="AddToCart"
+                                        data-id="elegant-orchid-opening-box"
+                                        data-name="Elegant Orchid Opening Box"
+                                        data-price="48.00"
+                                        data-image="florist_images/elegant-orchid-opening-box.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+                            
+                            <div class="grid-grad-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/native-bloom-opening-box-small.jpg" 
+                                    alt="Arrangement featuring Mixed Native Flowers such as Banksia, Billy Buttons, Wax Flowers, Pink Carnations and assorted Greenery">
+                                    <p>Native Bloom <br>Opening Box (Small)<br>$85.00</p>
+                                    <button class="AddToCart"
+                                        data-id="native-bloom-opening-box-small"
+                                        data-name="Native Bloom Opening Box (Small)"
+                                        data-price="85.00"
+                                        data-image="florist_images/native-bloom-opening-box-small.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+                            
+                            <div class="grid-grad-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/vibrant-iris-carnation-box.jpg" 
+                                    alt="11 stems arrangement featuring Purple Iris, Pink SimCarnations, Yellow Daisies, and assorted Greenery">
+                                    <p>Vibrant Iris & <br>Carnation Box<br>$85.00</p>
+                                    <button class="AddToCart"
+                                        data-id="vibrant-iris-carnation-box"
+                                        data-name="Vibrant Iris & Carnation Box"
+                                        data-price="85.00"
+                                        data-image="florist_images/vibrant-iris-carnation-box.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-grad-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/vibrant-gerbera-opening-box.jpg" 
+                                    alt="Arrangement featuring Orange-Red Gerberas,Yellow Daisies,Craspedia Balls, Pink Filler Flowers and Lush Greenery (11 stems)">
+                                    <p>Vibrant Gerbera <br>Opening Box<br>$88.00</p>
+                                    <button class="AddToCart"
+                                        data-id="vibrant-gerbera-opening-box"
+                                        data-name="Vibrant Gerbera Opening Box"
+                                        data-price="88.00"
+                                        data-image="florist_images/vibrant-gerbera-opening-box.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-grad-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/yellow-rose-iris-opening-basket.jpg" 
+                                    alt="Opening arrangement with Yellow Roses,Blue Iris, Craspedia Balls, Wax Flowers and assorted Greenery in a Decorative Basket">
+                                    <p>Yellow Rose & <br>Iris Opening Basket<br>$95.00</p>
+                                    <button class="AddToCart"
+                                        data-id="yellow-rose-iris-opening-basket"
+                                        data-name="Yellow Rose & Iris Opening Basket"
+                                        data-price="95.00"
+                                        data-image="florist_images/yellow-rose-iris-opening-basket.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-grad-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/blush-rose-carnation-opening-box.jpg" 
+                                    alt="Arrangement featuring Pink Roses, Pink Sim Carnations, Dusty Miller, and assorted Greenery (17 stems)">
+                                    <p>Blush Rose & <br>Carnation Opening Box<br>$98.00</p>
+                                    <button class="AddToCart"
+                                        data-id="blush-rose-carnation-opening-box"
+                                        data-name="Blush Rose & Carnation Opening Box"
+                                        data-price="98.00"
+                                        data-image="florist_images/blush-rose-carnation-opening-box.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-grad-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/classic-red-rose-opening-box.jpg" 
+                                    alt="Arrangement featuring 11 Stems Red Rose with assorted Greenery and Decorative Fillers.">
+                                    <p>Classic Red Rose <br>Opening Box<br>$98.00</p>
+                                    <button class="AddToCart"
+                                        data-id="classic-red-rose-opening-box"
+                                        data-name="Classic Red Rose Opening Box"
+                                        data-price="98.00"
+                                        data-image="florist_images/classic-red-rose-opening-box.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+                            
+                            <div class="grid-grad-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/sunset-rose-tulip-opening-box.jpg" 
+                                    alt="Arrangement featuring Yellow Roses, Orange Tulips, Mini Carnations, Craspedia Balls and assorted Greenery">
+                                    <p>Sunset Rose & <br>Tulip Opening Box<br>$98.00</p>
+                                    <button class="AddToCart"
+                                        data-id="sunset-rose-tulip-opening-box"
+                                        data-name="Sunset Rose & Tulip Opening Box"
+                                        data-price="98.00"
+                                        data-image="lorist_images/sunset-rose-tulip-opening-box.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>                            
+                            
+                        </div>  
+                    </div><!--Grand Opening close-->
+
+                    <br><br><br><br><br>
+
+                    <div id="mother">
+                        <h2>Bloom for Mom Collection</h2>
+                        
+                        <div class="grid-mom">       
+                            
+                            <div class="grid-mom-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/moms-classic-red-carnation-bouquet.jpg" 
+                                    alt="11 Stems Red Carnation with Yellow Minor Flower">
+                                    <p>Mom’s Classic Red <br>Carnation Bouquet<br>$108.00</p>
+                                    <button class="AddToCart"
+                                        data-id="moms-classic-red-carnation-bouquet"
+                                        data-name="Mom’s Classic Red Carnation Bouquet"
+                                        data-price="108.00"
+                                        data-image="florist_images/moms-classic-red-carnation-bouquet.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-mom-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/moms-pink-serenity-bouquet.jpg" 
+                                    alt="11 Stems Pink Carnation with Pink Oriental Lily">
+                                    <p>Mom’s Pink <br>Serenity Bouquet<br>$118.00</p>
+                                    <button class="AddToCart"
+                                        data-id="moms-pink-serenity-bouquet"
+                                        data-name="Mom’s Pink Serenity Bouquet"
+                                        data-price="118.00"
+                                        data-image="florist_images/moms-pink-serenity-bouquet.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>                            
+
+                            <div class="grid-mom-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/moms-radiant-lily-carnation-bouquet.jpg" 
+                                    alt="12 Stems Purple Red Carnation 7 Stems Pink Carnation 1 Stem Pink OrientalLily with Leaves">
+                                    <p>Mom’s Radiant Lily & <br>Carnation Bouquet<br>$128.00</p>
+                                    <button class="AddToCart"
+                                        data-id="moms-radiant-lily-carnation-bouquet"
+                                        data-name="Mom’s Radiant Lily & Carnation Bouquet"
+                                        data-price="128.00"
+                                        data-image="florist_images/moms-radiant-lily-carnation-bouquet.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-mom-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/moms-purple-harmony-bouquet.jpg" 
+                                    alt="16 Stems Purple Red Carnation with Pink Statice Limonium">
+                                    <p>Mom’s Purple <br>Harmony Bouquet<br>$138.00</p>
+                                    <button class="AddToCart"
+                                        data-id="moms-purple-harmony-bouquet"
+                                        data-name="Mom’s Purple Harmony Bouquet"
+                                        data-price="138.00"
+                                        data-image="florist_images/moms-purple-harmony-bouquet.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-mom-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/moms-blush-pink-carnation-bouquet.jpg" 
+                                    alt="19 Stems Pink Carnation with Babysbreath Oriole">
+                                    <p>Mom’s Blush Pink <br>Carnation Bouquet<br>$148.00</p>
+                                    <button class="AddToCart"
+                                        data-id="moms-blush-pink-carnation-bouquet"
+                                        data-name="Mom’s Blush Pink Carnation Bouquet"
+                                        data-price="148.00"
+                                        data-image="florist_images/moms-blush-pink-carnation-bouquet.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-mom-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/graceful-pink-carnation-white-lily-bouquet.jpg" 
+                                    alt="19 Stems Pink Carnation + 2 Stema White Oriental Lily with Oriole Leaves">
+                                    <p>Graceful Pink Carnation & <br>White Lily Bouquet<br>$158.00</p>
+                                    <button class="AddToCart"
+                                        data-id="graceful-pink-carnation-white-lily-bouquet"
+                                        data-name="Graceful Pink Carnation & White Lily Bouquet"
+                                        data-price="158.00"
+                                        data-image="florist_images/graceful-pink-carnation-white-lily-bouquet.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-mom-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/blushing-pink-gerbera-carnation-bouquet.jpg" 
+                                    alt="19 Stems Carnation + 5 Stems Pink Gerbra + 3 Pink Chrysanthemum with Leaves">
+                                    <p>Blushing Pink Gerbera & <br>Carnation Bouquet<br>$165.00</p>
+                                    <button class="AddToCart"
+                                        data-id="blushing-pink-gerbera-carnation-bouquet"
+                                        data-name="Blushing Pink Gerbera & Carnation Bouquet"
+                                        data-price="165.00"
+                                        data-image="florist_images/blushing-pink-gerbera-carnation-bouquet.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-mom-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/moms-loving-carnation-bouquet.jpg" 
+                                    alt="11 Red Carnation + 4 Stems Pink Lisianthus + 5 Stems Berry with Leaves">
+                                    <p>Mom’s Loving <br>Carnation Bouquet<br>$165.00</p>
+                                    <button class="AddToCart"
+                                        data-id="moms-loving-carnation-bouquet"
+                                        data-name="Mom’s Loving Carnation Bouquet"
+                                        data-price="165.00"
+                                        data-image="florist_images/moms-loving-carnation-bouquet.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-mom-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/red-champagne-elegance-carnation-bouquet.jpg" 
+                                    alt="33 Stems Red Carnation + 9 Champagne Rose with Brazil Leaf">
+                                    <p>Red & Champagne <br>Elegance Carnation Bouquet<br>$225.00</p>
+                                    <button class="AddToCart"
+                                        data-id="red-champagne-elegance-carnation-bouquet"
+                                        data-name="Red & Champagne Elegance Carnation Bouquet"
+                                        data-price="225.00"
+                                        data-image="florist_images/red-champagne-elegance-carnation-bouquet.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-mom-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/lavish-purple-pink-carnation-bouquet.jpg" 
+                                    alt="66 Stems Purple Carnation + 15 Stems Pink Spray Carnation with Leaves">
+                                    <p>Lavish Purple & <br>Pink Carnation Bouquet<br>$329.00</p>
+                                    <button class="AddToCart"
+                                        data-id="lavish-purple-pink-carnation-bouquet"
+                                        data-name="Lavish Purple & Pink Carnation Bouquet"
+                                        data-price="329.00"
+                                        data-image="florist_images/lavish-purple-pink-carnation-bouquet.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                        </div>
+                    </div><!--Mother's Day close-->
+
+                    <br><br><br><br><br>
+
+                    <div id="valentine">
+                        <h2>Eternal Love Valentine Collection</h2>
+                        
+                        <div class="grid-valen">                            
+
+                            <div class="grid-valen-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/sweet-harmony-rose-bouquet.jpg" 
+                                    alt="6 Stems Pink Rose + 6 Stems White Rose with Leaves">
+                                    <p>Sweet Harmony Rose <br>Bouquet<br>$125.00</p>
+                                    <button class="AddToCart"
+                                        data-id="sweet-harmony-rose-bouquet"
+                                        data-name="Sweet Harmony Rose Bouquet"
+                                        data-price="125.00"
+                                        data-image="florist_images/sweet-harmony-rose-bouquet.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-valen-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/moonlit-elegance-rose-bouquet.jpg" 
+                                    alt="11 Stems White Rose with Dark Purple Statice">
+                                    <p>Moonlit Elegance Rose <br>Bouquet<br>$128.00</p>
+                                    <button class="AddToCart"
+                                        data-id="moonlit-elegance-rose-bouquet"
+                                        data-name="Moonlit Elegance Rose Bouquet"
+                                        data-price="128.00"
+                                        data-image="florist_images/moonlit-elegance-rose-bouquet.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-valen-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/sweet-blossom-symphony.jpg" 
+                                    alt="19 StemsPinkRose + 2 Stems Pink Lisianthus + 4 Stems White Chrysanthemum with Limonium">
+                                    <p>Sweet Blossom Symphony<br>$185.00</p>
+                                    <button class="AddToCart"
+                                        data-id="sweet-blossom-symphony"
+                                        data-name="Sweet Blossom Symphony"
+                                        data-price="185.00"
+                                        data-image="florist_images/sweet-blossom-symphony.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-valen-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/rose-luxe-blush.jpg" 
+                                    alt="29 Stems Pink Rose with Silver Leaf">
+                                    <p>Rose Luxe Blush<br>$235.00</p>
+                                    <button class="AddToCart"
+                                        data-id="rose-luxe-blush"
+                                        data-name="Rose Luxe Blush"
+                                        data-price="235.00"
+                                        data-image="florist_images/rose-luxe-blush.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-valen-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/royal-amethyst-bloom.jpg" 
+                                    alt="36 Stems Purple Rose with Pink Dianthus">
+                                    <p>Royal Amethyst Bloom<br>$258.00</p>
+                                    <button class="AddToCart"
+                                        data-id="royal-amethyst-bloom"
+                                        data-name="Royal Amethyst Bloom"
+                                        data-price="258.00"
+                                        data-image="florist_images/royal-amethyst-bloom.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-valen-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/endless-pink-romance.jpg" 
+                                    alt="99 Stems Pink Rose with Leaves">
+                                    <p>Endless Pink Romance<br>$665.00</p>
+                                    <button class="AddToCart"
+                                        data-id="endless-pink-romance"
+                                        data-name="Endless Pink Romance"
+                                        data-price="665.00"
+                                        data-image="florist_images/endless-pink-romance.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-valen-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/golden-champagne-romance.jpg" 
+                                    alt="99 Stems Champagne Rose with Heiwingia">
+                                    <p>Golden Champagne <br>Romance<br>$665.00</p>
+                                    <button class="AddToCart"
+                                        data-id="golden-champagne-romance"
+                                        data-name="Golden Champagne Romance"
+                                        data-price="665.00"
+                                        data-image="florist_images/golden-champagne-romance.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+                            
+                        </div>
+                    </div><!--Valentine's Day close-->
+
+                    <br><br><br><br><br>
+
+                    <div id="wedding">
+                        <h2>Eternal Love Wedding Collection</h2>
+                        
+                        <div class="grid-wedd">
+
+                            <div class="grid-wedd-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/creamy-rose-lisianthus-bridal-bouquet.jpg" 
+                                    alt="Creamy White Rose and Lisianthus Bridal Bouquet with Soft Berry Accents">
+                                    <p>Creamy Rose & <br>Lisianthus Bridal Bouquet<br>$249.00</p>
+                                    <button class="AddToCart"
+                                        data-id="creamy-rose-lisianthus-bridal-bouquet"
+                                        data-name="Creamy Rose & Lisianthus Bridal Bouquet"
+                                        data-price="249.00"
+                                        data-image="florist_images/creamy-rose-lisianthus-bridal-bouquet.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-wedd-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/peach-garden-bridal-bouquet.jpg" 
+                                    alt="20 Stems Rose Wedding Bouquet">
+                                    <p>Peach Garden Bridal <br>Bouquet<br>$249.00</p>
+                                    <button class="AddToCart"
+                                        data-id="peach-garden-bridal-bouquet"
+                                        data-name="Peach Garden Bridal Bouquet"
+                                        data-price="249.00"
+                                        data-image="florist_images/peach-garden-bridal-bouquet.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+                            
+                            <div class="grid-wedd-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/blushing-rose-berry-bridal-bouquet.jpg" 
+                                    alt="Pink Rose Bridal Bouquet with Soft Berry Accents and Dusty Miller Leaves">
+                                    <p>Blushing Rose & <br>Berry Bridal Bouquet<br>$275.00</p>
+                                    <button class="AddToCart"
+                                        data-id="blushing-rose-berry-bridal-bouquet"
+                                        data-name="Blushing Rose & Berry Bridal Bouquet"
+                                        data-price="275.00"
+                                        data-image="florist_images/blushing-rose-berry-bridal-bouquet.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                            <div class="grid-wedd-item">
+                                <div class="flowerCard">
+                                    <img src="florist_images/enchanted-pastel-rose-bridal-bouquet.jpg" 
+                                    alt="Pastel Pink, Lilac, Champagne and Green Rose Bridal Bouquet with over 35 Stems">
+                                    <p>Enchanted Pastel Rose <br>Bridal Bouquet<br>$319.00</p>
+                                    <button class="AddToCart"
+                                        data-id="enchanted-pastel-rose-bridal-bouquet"
+                                        data-name="Enchanted Pastel Rose Bridal Bouquet"
+                                        data-price="319.00"
+                                        data-image="florist_images/enchanted-pastel-rose-bridal-bouquet.jpg">
+                                        Add to cart
+                                    </button>
+                                </div> <!--close Flowercard-->
+                            </div>
+
+                        </div>
+                    </div><!--Wedding close-->                   
+                </div><!--All Flower close-->
+            </main>
+
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+            <br><br><br>
+
+            <footer>
+                <ul>
+                    <li>&copy; 2023 Busy Bee Florist. All Rights Reserved.</li><!--copyright-->                   
+                    <li><a href="https://www.oaic.gov.au/about-the-OAIC/our-corporate-information/plans-policies-and-procedures/privacy-policy">
+                        Privacy Policy</a>
+                    </li>
+                    <li>Term & Conditions</li> <!-- <a href=""> link </a> -->
+                    <li><a href="https://www.qld.gov.au/law/laws-regulated-industries-and-accountability/queensland-laws-and-regulations/selling-your-products-and-services/guarantees-warranties-and-refunds/your-refund-policy">
+                        Refund Policy</a>
+                    </li>
+                </ul><!--act policy link-->
+
+                <p>
+                    <ul>
+                        <li>07 4779 1243</li>
+                        <li><a href="mailto: busybeeflorist@busybeemail.com.au">
+                            busybeeflorist@busybeemail.com.au</a>
+                        </li>
+                        <li>ABN 11 222 333 444</li> <!--business abn number-->
+                    </ul>                    
+                </p><!--email address-->
+            </footer>
+            
+        </div><!--Container close-->
+
+        <script src="script.js"></script>
+    </body>
+</html>
