@@ -147,3 +147,7 @@ This project was originally developed as part of a university coursework and was
 © 2025 Suet Kei Lock. All rights reserved.  
 Unauthorized copying, redistribution, or submission of this project as academic work is strictly prohibited.
 
+> ⚠️ This project is protected under All Rights Reserved.  
+> The design, code, images, and content in this repository are original work by Suet Kei Lock.  
+> Copying this project for academic submission, commercial use, or redistribution without permission is strictly forbidden.
+
