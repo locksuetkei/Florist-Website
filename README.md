@@ -89,7 +89,7 @@ Each product includes:
 
 ## 📂 Folder Structure
 
-
+```
 Florist_Website/
 │
 ├── florist_images/            # All flower images
@@ -103,7 +103,7 @@ Florist_Website/
 │
 ├── script.js                  # Cart logic, mobile menu, dynamic functions
 └── styles.css                 # Global styling & responsive design
-
+```
 
 
 ## 🔒 Disclaimer
