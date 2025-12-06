@@ -2,14 +2,14 @@
 
 *A fully responsive florist storefront built with HTML, CSS, and JavaScript.*
 
----
+
 
 ## ✨ Overview
 
 This project showcases a complete florist website featuring multiple product categories, interactive UI elements, and a functional cart simulation using **sessionStorage** (frontend only).
 No backend or database is used.
 
----
+
 
 ## 🌼 Features
 
@@ -20,6 +20,7 @@ No backend or database is used.
 - Multi-category product display
 - Hover descriptions for all product images
 - Optimized `alt` and `title` attributes for accessibility & SEO
+
 
 ### 2. Interactive Shopping Cart System (Frontend Only)
 
@@ -38,6 +39,7 @@ Powered entirely using **sessionStorage**:
 | Refresh page           | Cart retained              |
 | Close browser          | Cart cleared automatically |
 
+
 ### 3. Dynamic Checkout Page
 
 The checkout page loads items from sessionStorage and supports:
@@ -51,6 +53,7 @@ If cart is empty:
 - Table hides
 - “Your cart is empty” message appears
 - Checkout button hidden
+
 
 ### 4. Rich Product Collections
 
@@ -71,7 +74,7 @@ Each product includes:
 - SEO-friendly alt text
 - Add-to-cart integration
 
----
+
 
 ## 🛠️ Technologies Used
 
@@ -82,7 +85,7 @@ Each product includes:
 | **JavaScript (Vanilla)** | Cart system, event handling, DOM manipulation |
 | **sessionStorage**       | Stores cart data for current browser session  |
 
----
+
 
 ## 📂 Folder Structure
 
@@ -101,7 +104,7 @@ Florist_Website/
 ├── script.js                  # Cart logic, mobile menu, dynamic functions
 └── styles.css                 # Global styling & responsive design
 
----
+
 
 ## 🔒 Disclaimer
 
@@ -115,7 +118,7 @@ It does **not** include:
 
 Cart data is stored only in **sessionStorage**, and clears when the browser closes.
 
----
+
 
 ## 🎯 Purpose of This Project
 
@@ -124,7 +127,7 @@ Cart data is stored only in **sessionStorage**, and clears when the browser clos
 - Simulate an e-commerce flow using only front-end code
 - Portfolio + academic usage
 
----
+
 
 ## 💐 Author
 
