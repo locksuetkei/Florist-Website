@@ -131,7 +131,7 @@ Cart data is stored only in **sessionStorage**, and clears when the browser clos
 
 ## 💐 Author
 
-**Suet Kei Lock**
+**Suet Kei Lock**  
 Florist Website Design — Frontend Development Project
 
 ---
